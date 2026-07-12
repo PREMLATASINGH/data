@@ -1,0 +1,501 @@
+student_id,full_name,age,city,grade,math_marks,science_marks,english_marks,enrollment_year,email,phone
+1,Ananya Iyer,15,New Brunswick,B,81,69,66,2024,ananya.iyer@school.edu,732-750-4100
+2,Ishaan Iyer,16,Iselin,A,75,77,50,2021,ishaan.iyer@school.edu,732-260-2814
+3,Rohan Verma,18,Woodbridge,C,59,83,91,2025,rohan.verma@school.edu,732-345-6315
+4,Ishaan Verma,15,Edison,D,68,50,73,2023,ishaan.verma@school.edu,732-925-5278
+5,Kabir Khan,20,Jersey City,D,99,77,47,2022,kabir.khan@school.edu,732-986-8093
+6,Riya Nair,21,Iselin,C,45,95,78,2018,riya.nair@school.edu,732-873-8997
+7,Riya Patel,16,New Brunswick,B,77,51,73,2022,riya.patel@school.edu,732-416-8671
+8,Ananya Das,17,New Brunswick,B,70,78,66,2025,ananya.das@school.edu,732-753-4498
+9,Rohan Gupta,16,New Brunswick,C,90,85,59,2018,rohan.gupta@school.edu,732-315-4853
+10,Rohan Iyer,21,Jersey City,C,66,88,52,2024,rohan.iyer@school.edu,732-638-5379
+11,Ishaan Patel,20,Woodbridge,B,88,59,55,2024,ishaan.patel@school.edu,732-452-5029
+12,Vivaan Sharma,15,Jersey City,A,42,82,69,2019,vivaan.sharma@school.edu,732-370-3500
+13,Ishaan Patel,19,Iselin,A,85,91,71,2022,ishaan.patel@school.edu,732-733-2391
+14,Diya Patel,19,Iselin,D,99,97,86,2023,diya.patel@school.edu,732-948-7576
+15,Vivaan Iyer,15,Iselin,A,99,74,90,2023,vivaan.iyer@school.edu,732-556-5590
+16,Kavya Gupta,16,Iselin,B,67,63,91,2024,kavya.gupta@school.edu,732-265-2055
+17,Riya Khan,19,Princeton,A,78,59,85,2020,riya.khan@school.edu,732-801-5707
+18,Kavya Reddy,15,Edison,C,55,94,83,2023,kavya.reddy@school.edu,732-467-3727
+19,Riya Iyer,16,Princeton,C,80,50,99,2021,riya.iyer@school.edu,732-750-4970
+20,Aditya Sharma,19,New Brunswick,A,60,48,78,2023,aditya.sharma@school.edu,732-472-9262
+21,Kavya Sharma,15,Iselin,A,53,97,98,2023,kavya.sharma@school.edu,732-684-5547
+22,Kabir Patel,17,Jersey City,B,54,53,87,2018,kabir.patel@school.edu,732-958-7133
+23,Aarav Gupta,18,Jersey City,B,48,92,43,2022,aarav.gupta@school.edu,732-661-8733
+24,Ishaan Verma,19,Edison,B,81,83,72,2023,ishaan.verma@school.edu,732-212-9410
+25,Aditya Gupta,20,Iselin,C,92,55,77,2025,aditya.gupta@school.edu,732-448-4249
+26,Riya Iyer,21,Iselin,B,53,96,78,2020,riya.iyer@school.edu,732-618-5160
+27,Ananya Iyer,21,New Brunswick,D,93,65,66,2018,ananya.iyer@school.edu,732-370-2373
+28,Ananya Reddy,21,Princeton,A,79,55,80,2020,ananya.reddy@school.edu,732-438-7230
+29,Diya Patel,21,Woodbridge,B,98,79,40,2023,diya.patel@school.edu,732-425-6665
+30,Riya Khan,21,Edison,B,54,75,87,2022,riya.khan@school.edu,732-464-2099
+31,Diya Gupta,18,Princeton,D,66,99,88,2021,diya.gupta@school.edu,732-736-6188
+32,Aarav Reddy,17,Jersey City,A,60,64,41,2020,aarav.reddy@school.edu,732-588-3069
+33,Vivaan Das,17,Princeton,D,52,86,64,2020,vivaan.das@school.edu,732-978-9704
+34,Ananya Das,21,Iselin,B,49,67,48,2019,ananya.das@school.edu,732-676-3003
+35,Aditya Reddy,18,Woodbridge,C,94,45,77,2024,aditya.reddy@school.edu,732-740-8524
+36,Kabir Reddy,19,Edison,B,98,68,70,2018,kabir.reddy@school.edu,732-407-6519
+37,Kabir Das,19,Jersey City,B,88,60,42,2025,kabir.das@school.edu,732-634-9025
+38,Vivaan Singh,21,Princeton,A,80,80,57,2022,vivaan.singh@school.edu,732-565-1048
+39,Ishaan Khan,15,Woodbridge,C,75,67,48,2023,ishaan.khan@school.edu,732-561-7353
+40,Diya Verma,15,Woodbridge,C,65,96,59,2023,diya.verma@school.edu,732-450-7455
+41,Rohan Patel,16,Edison,C,60,47,97,2019,rohan.patel@school.edu,732-778-6561
+42,Ishaan Sharma,15,New Brunswick,C,44,64,46,2018,ishaan.sharma@school.edu,732-310-1803
+43,Aditya Singh,17,Iselin,B,55,48,54,2019,aditya.singh@school.edu,732-513-9825
+44,Ishaan Das,20,Princeton,A,75,89,71,2021,ishaan.das@school.edu,732-790-6725
+45,Aarav Sharma,19,Iselin,C,48,67,74,2022,aarav.sharma@school.edu,732-542-8480
+46,Aditya Verma,17,Princeton,B,75,79,45,2025,aditya.verma@school.edu,732-642-1055
+47,Aditya Nair,21,Woodbridge,A,63,66,94,2024,aditya.nair@school.edu,732-653-7335
+48,Rohan Nair,15,Iselin,A,55,71,77,2022,rohan.nair@school.edu,732-869-3258
+49,Diya Singh,16,Princeton,D,62,42,57,2024,diya.singh@school.edu,732-965-3006
+50,Vivaan Das,19,Princeton,B,81,94,75,2018,vivaan.das@school.edu,732-257-1408
+51,Riya Patel,17,New Brunswick,B,63,47,57,2025,riya.patel@school.edu,732-480-4564
+52,Diya Gupta,21,Edison,A,55,44,88,2025,diya.gupta@school.edu,732-460-3963
+53,Ananya Verma,17,Jersey City,C,95,70,53,2021,ananya.verma@school.edu,732-654-9611
+54,Rohan Khan,19,Woodbridge,C,69,68,56,2018,rohan.khan@school.edu,732-355-6710
+55,Riya Khan,17,Iselin,C,67,74,45,2024,riya.khan@school.edu,732-962-6292
+56,Vivaan Reddy,20,Iselin,B,57,70,81,2018,vivaan.reddy@school.edu,732-735-4798
+57,Kabir Iyer,15,Princeton,D,80,67,90,2018,kabir.iyer@school.edu,732-512-7487
+58,Riya Iyer,16,Iselin,D,42,50,65,2024,riya.iyer@school.edu,732-239-2756
+59,Aarav Verma,19,Iselin,D,71,54,71,2020,aarav.verma@school.edu,732-962-8991
+60,Ishaan Nair,16,Edison,B,45,57,59,2018,ishaan.nair@school.edu,732-506-4889
+61,Aditya Singh,16,New Brunswick,B,43,63,62,2025,aditya.singh@school.edu,732-763-7982
+62,Kavya Iyer,20,Iselin,D,96,76,69,2020,kavya.iyer@school.edu,732-330-3566
+63,Rohan Singh,17,Jersey City,B,85,88,46,2020,rohan.singh@school.edu,732-661-7906
+64,Aarav Singh,16,Iselin,A,81,46,53,2023,aarav.singh@school.edu,732-312-2855
+65,Vivaan Patel,15,New Brunswick,B,91,72,66,2024,vivaan.patel@school.edu,732-926-8484
+66,Rohan Singh,18,Princeton,D,71,63,97,2020,rohan.singh@school.edu,732-722-7299
+67,Ananya Sharma,21,Princeton,A,46,42,81,2018,ananya.sharma@school.edu,732-966-7991
+68,Ananya Gupta,17,Princeton,A,75,65,94,2024,ananya.gupta@school.edu,732-869-4354
+69,Kabir Verma,18,Jersey City,B,57,95,65,2019,kabir.verma@school.edu,732-434-3337
+70,Aditya Singh,21,Jersey City,B,82,40,78,2020,aditya.singh@school.edu,732-596-2797
+71,Diya Sharma,20,Edison,C,90,40,61,2021,diya.sharma@school.edu,732-362-1881
+72,Kavya Gupta,20,Iselin,A,42,49,55,2025,kavya.gupta@school.edu,732-422-5896
+73,Vivaan Khan,20,Jersey City,C,60,45,97,2021,vivaan.khan@school.edu,732-574-1406
+74,Ishaan Sharma,17,Princeton,D,91,81,46,2021,ishaan.sharma@school.edu,732-603-4488
+75,Vivaan Nair,18,Iselin,A,82,73,87,2023,vivaan.nair@school.edu,732-697-7902
+76,Kabir Patel,21,New Brunswick,D,90,43,60,2018,kabir.patel@school.edu,732-268-6805
+77,Kabir Iyer,19,Jersey City,D,97,62,57,2022,kabir.iyer@school.edu,732-555-7523
+78,Aditya Khan,20,Princeton,A,73,42,76,2023,aditya.khan@school.edu,732-964-4359
+79,Aditya Gupta,16,Edison,B,87,86,95,2021,aditya.gupta@school.edu,732-576-7375
+80,Rohan Iyer,18,Iselin,B,42,48,49,2025,rohan.iyer@school.edu,732-450-9232
+81,Kavya Nair,15,Jersey City,B,48,86,94,2023,kavya.nair@school.edu,732-893-3183
+82,Vivaan Reddy,19,Iselin,C,57,61,79,2019,vivaan.reddy@school.edu,732-676-2415
+83,Ishaan Singh,20,New Brunswick,A,87,62,94,2022,ishaan.singh@school.edu,732-396-1004
+84,Ishaan Iyer,15,Woodbridge,D,68,71,77,2024,ishaan.iyer@school.edu,732-370-8696
+85,Aarav Nair,15,New Brunswick,C,75,92,94,2022,aarav.nair@school.edu,732-689-5784
+86,Aarav Sharma,17,Princeton,D,85,70,85,2021,aarav.sharma@school.edu,732-682-4460
+87,Ishaan Reddy,18,Woodbridge,B,63,71,97,2022,ishaan.reddy@school.edu,732-507-2790
+88,Riya Verma,21,Jersey City,B,44,52,68,2020,riya.verma@school.edu,732-911-1090
+89,Kabir Sharma,17,Woodbridge,A,54,53,85,2019,kabir.sharma@school.edu,732-866-3455
+90,Kabir Singh,17,Woodbridge,D,90,50,46,2019,kabir.singh@school.edu,732-239-9475
+91,Aarav Khan,16,New Brunswick,B,81,94,43,2023,aarav.khan@school.edu,732-237-1044
+92,Aditya Iyer,19,Princeton,A,87,46,73,2023,aditya.iyer@school.edu,732-634-5179
+93,Riya Iyer,17,Iselin,C,95,73,70,2024,riya.iyer@school.edu,732-688-7867
+94,Diya Nair,19,Edison,D,64,99,88,2024,diya.nair@school.edu,732-586-5975
+95,Vivaan Verma,16,New Brunswick,D,75,60,82,2019,vivaan.verma@school.edu,732-203-8903
+96,Riya Singh,20,Edison,A,48,40,91,2022,riya.singh@school.edu,732-366-9395
+97,Kavya Reddy,21,Princeton,C,80,92,75,2021,kavya.reddy@school.edu,732-944-7616
+98,Diya Verma,18,Princeton,B,76,99,81,2020,diya.verma@school.edu,732-519-1528
+99,Aditya Khan,21,Edison,C,94,53,78,2022,aditya.khan@school.edu,732-466-9678
+100,Aditya Khan,16,New Brunswick,A,85,57,78,2024,aditya.khan@school.edu,732-671-6606
+101,Vivaan Nair,15,Jersey City,D,60,53,90,2019,vivaan.nair@school.edu,732-334-8693
+102,Vivaan Patel,20,Iselin,B,45,58,77,2022,vivaan.patel@school.edu,732-964-5162
+103,Vivaan Patel,19,Edison,B,54,40,75,2025,vivaan.patel@school.edu,732-462-7999
+104,Kavya Gupta,21,Jersey City,B,42,59,67,2021,kavya.gupta@school.edu,732-931-3601
+105,Diya Das,18,Woodbridge,D,41,48,92,2025,diya.das@school.edu,732-453-9370
+106,Aditya Singh,21,Woodbridge,A,46,89,97,2022,aditya.singh@school.edu,732-930-7403
+107,Riya Sharma,20,New Brunswick,D,95,93,76,2025,riya.sharma@school.edu,732-750-7411
+108,Ananya Gupta,18,Edison,B,54,82,58,2020,ananya.gupta@school.edu,732-706-6281
+109,Vivaan Gupta,19,Princeton,B,48,71,72,2021,vivaan.gupta@school.edu,732-971-1087
+110,Ananya Iyer,21,Iselin,A,45,48,81,2024,ananya.iyer@school.edu,732-424-3090
+111,Ishaan Das,20,Jersey City,C,87,41,55,2019,ishaan.das@school.edu,732-445-3289
+112,Ishaan Reddy,18,Jersey City,C,54,51,98,2019,ishaan.reddy@school.edu,732-233-6612
+113,Kavya Nair,21,Iselin,A,94,58,59,2020,kavya.nair@school.edu,732-508-8309
+114,Vivaan Das,19,Edison,D,75,63,84,2025,vivaan.das@school.edu,732-315-9083
+115,Rohan Das,15,Princeton,C,83,88,56,2022,rohan.das@school.edu,732-659-2025
+116,Ananya Verma,16,Princeton,B,72,44,49,2018,ananya.verma@school.edu,732-302-1550
+117,Ishaan Singh,18,Jersey City,D,88,50,67,2020,ishaan.singh@school.edu,732-412-2211
+118,Rohan Singh,18,Woodbridge,A,50,43,61,2021,rohan.singh@school.edu,732-576-9368
+119,Ishaan Singh,21,New Brunswick,A,78,68,57,2020,ishaan.singh@school.edu,732-543-4416
+120,Ishaan Reddy,21,Princeton,A,64,56,93,2023,ishaan.reddy@school.edu,732-586-4844
+121,Diya Gupta,19,Iselin,C,40,93,43,2022,diya.gupta@school.edu,732-330-1880
+122,Kabir Khan,15,Jersey City,C,81,45,96,2018,kabir.khan@school.edu,732-289-6872
+123,Rohan Khan,19,New Brunswick,C,42,66,79,2020,rohan.khan@school.edu,732-914-6082
+124,Aarav Khan,17,New Brunswick,B,94,87,93,2025,aarav.khan@school.edu,732-683-4766
+125,Kavya Sharma,20,Princeton,C,71,52,69,2025,kavya.sharma@school.edu,732-382-4249
+126,Kavya Singh,19,New Brunswick,B,69,50,98,2021,kavya.singh@school.edu,732-467-9948
+127,Diya Singh,15,Princeton,B,58,67,56,2025,diya.singh@school.edu,732-291-2647
+128,Ananya Gupta,21,Princeton,A,58,51,85,2025,ananya.gupta@school.edu,732-459-8536
+129,Ishaan Sharma,21,Princeton,C,47,59,54,2020,ishaan.sharma@school.edu,732-760-3888
+130,Kavya Khan,15,New Brunswick,D,97,70,65,2018,kavya.khan@school.edu,732-486-2016
+131,Riya Singh,20,Edison,B,42,86,73,2020,riya.singh@school.edu,732-273-4325
+132,Kavya Verma,15,Princeton,D,51,83,51,2022,kavya.verma@school.edu,732-798-3292
+133,Aditya Nair,16,Edison,D,72,54,50,2022,aditya.nair@school.edu,732-904-1827
+134,Ananya Khan,19,Jersey City,D,97,99,74,2020,ananya.khan@school.edu,732-878-4606
+135,Kabir Reddy,21,Woodbridge,D,77,86,69,2020,kabir.reddy@school.edu,732-765-9631
+136,Aditya Iyer,19,New Brunswick,A,65,44,61,2018,aditya.iyer@school.edu,732-727-3965
+137,Rohan Nair,17,Iselin,D,64,74,64,2018,rohan.nair@school.edu,732-836-3665
+138,Diya Patel,17,Jersey City,A,68,48,61,2019,diya.patel@school.edu,732-905-3593
+139,Aarav Singh,16,Iselin,C,41,51,48,2024,aarav.singh@school.edu,732-293-8015
+140,Aditya Das,19,New Brunswick,A,48,53,81,2018,aditya.das@school.edu,732-226-2850
+141,Kavya Singh,17,New Brunswick,C,57,55,71,2022,kavya.singh@school.edu,732-308-4512
+142,Kabir Patel,15,Edison,D,74,80,95,2018,kabir.patel@school.edu,732-721-4291
+143,Rohan Sharma,18,Jersey City,D,77,93,57,2018,rohan.sharma@school.edu,732-636-6076
+144,Ishaan Patel,20,Woodbridge,A,94,41,82,2018,ishaan.patel@school.edu,732-684-9490
+145,Vivaan Gupta,16,Iselin,B,72,83,96,2020,vivaan.gupta@school.edu,732-740-3553
+146,Ananya Das,16,Princeton,D,67,61,85,2018,ananya.das@school.edu,732-613-3193
+147,Riya Patel,19,Woodbridge,B,67,46,59,2020,riya.patel@school.edu,732-411-2089
+148,Aditya Nair,20,New Brunswick,D,82,97,90,2025,aditya.nair@school.edu,732-615-4941
+149,Riya Das,15,New Brunswick,A,73,68,59,2024,riya.das@school.edu,732-409-7577
+150,Kabir Nair,20,Princeton,D,91,97,72,2024,kabir.nair@school.edu,732-454-5331
+151,Kabir Iyer,15,Jersey City,C,70,90,51,2018,kabir.iyer@school.edu,732-433-1894
+152,Vivaan Gupta,17,Jersey City,B,43,49,41,2021,vivaan.gupta@school.edu,732-505-5314
+153,Vivaan Nair,20,Woodbridge,A,80,48,86,2021,vivaan.nair@school.edu,732-631-7665
+154,Diya Gupta,18,Woodbridge,A,50,73,85,2019,diya.gupta@school.edu,732-251-7230
+155,Kavya Das,17,Iselin,C,48,95,64,2020,kavya.das@school.edu,732-880-4508
+156,Riya Patel,15,Woodbridge,B,50,86,42,2019,riya.patel@school.edu,732-244-8826
+157,Ananya Sharma,21,Iselin,D,75,87,56,2023,ananya.sharma@school.edu,732-888-7230
+158,Aditya Sharma,17,Iselin,A,48,97,48,2021,aditya.sharma@school.edu,732-511-4347
+159,Kavya Nair,17,Woodbridge,A,44,66,52,2024,kavya.nair@school.edu,732-423-2906
+160,Ishaan Verma,15,Woodbridge,C,66,85,67,2022,ishaan.verma@school.edu,732-684-3922
+161,Ananya Reddy,20,Woodbridge,D,55,99,94,2019,ananya.reddy@school.edu,732-410-6949
+162,Ishaan Gupta,21,Iselin,C,79,59,81,2021,ishaan.gupta@school.edu,732-546-8722
+163,Ishaan Sharma,15,Iselin,C,97,48,78,2024,ishaan.sharma@school.edu,732-995-9774
+164,Vivaan Khan,16,Princeton,A,74,62,95,2022,vivaan.khan@school.edu,732-471-8157
+165,Diya Das,15,Jersey City,B,80,65,59,2018,diya.das@school.edu,732-837-4903
+166,Ishaan Khan,21,Woodbridge,B,83,79,57,2025,ishaan.khan@school.edu,732-888-7867
+167,Diya Reddy,15,Woodbridge,A,51,75,81,2025,diya.reddy@school.edu,732-621-3071
+168,Kavya Khan,15,Iselin,D,41,71,66,2025,kavya.khan@school.edu,732-837-2540
+169,Riya Iyer,19,Iselin,D,93,71,80,2020,riya.iyer@school.edu,732-673-4530
+170,Riya Singh,17,New Brunswick,B,92,44,54,2023,riya.singh@school.edu,732-308-9844
+171,Ishaan Sharma,20,Princeton,A,72,89,95,2021,ishaan.sharma@school.edu,732-901-8205
+172,Kavya Singh,20,Princeton,A,91,92,91,2020,kavya.singh@school.edu,732-394-9398
+173,Kavya Verma,20,New Brunswick,C,72,42,65,2024,kavya.verma@school.edu,732-329-2401
+174,Rohan Sharma,20,Iselin,C,98,54,77,2019,rohan.sharma@school.edu,732-799-1153
+175,Aarav Verma,20,New Brunswick,A,57,74,46,2022,aarav.verma@school.edu,732-932-6398
+176,Kabir Iyer,16,Iselin,B,57,95,81,2022,kabir.iyer@school.edu,732-325-9974
+177,Kabir Patel,15,Iselin,B,59,62,70,2022,kabir.patel@school.edu,732-809-3768
+178,Ishaan Gupta,21,Edison,B,82,95,96,2023,ishaan.gupta@school.edu,732-718-8708
+179,Diya Iyer,16,Princeton,D,69,62,88,2021,diya.iyer@school.edu,732-871-1082
+180,Diya Nair,15,Princeton,D,58,81,65,2021,diya.nair@school.edu,732-926-7505
+181,Ishaan Gupta,21,Princeton,D,73,42,80,2023,ishaan.gupta@school.edu,732-716-2432
+182,Diya Iyer,16,Princeton,A,45,78,94,2022,diya.iyer@school.edu,732-860-1293
+183,Diya Khan,15,Iselin,D,44,63,44,2025,diya.khan@school.edu,732-417-3474
+184,Rohan Patel,19,Jersey City,D,83,69,83,2022,rohan.patel@school.edu,732-590-5704
+185,Aarav Reddy,17,Iselin,B,86,53,47,2022,aarav.reddy@school.edu,732-262-4193
+186,Ishaan Iyer,15,Iselin,B,71,87,56,2021,ishaan.iyer@school.edu,732-595-7030
+187,Aditya Verma,18,Woodbridge,B,91,70,68,2021,aditya.verma@school.edu,732-961-9706
+188,Aarav Sharma,20,New Brunswick,C,48,49,56,2021,aarav.sharma@school.edu,732-872-4349
+189,Riya Patel,15,Jersey City,B,53,43,75,2021,riya.patel@school.edu,732-767-5496
+190,Aditya Sharma,17,Iselin,D,82,76,63,2024,aditya.sharma@school.edu,732-633-7064
+191,Vivaan Das,20,Iselin,A,81,54,87,2024,vivaan.das@school.edu,732-239-6964
+192,Ishaan Khan,19,Edison,C,88,68,72,2018,ishaan.khan@school.edu,732-336-3669
+193,Rohan Iyer,17,Iselin,A,60,64,40,2024,rohan.iyer@school.edu,732-754-6317
+194,Rohan Sharma,17,Iselin,C,45,46,85,2022,rohan.sharma@school.edu,732-792-9979
+195,Aditya Nair,19,New Brunswick,A,53,90,56,2020,aditya.nair@school.edu,732-347-7437
+196,Kabir Iyer,20,New Brunswick,B,82,95,79,2021,kabir.iyer@school.edu,732-684-8382
+197,Aditya Iyer,17,Edison,A,72,46,95,2021,aditya.iyer@school.edu,732-907-4407
+198,Vivaan Patel,15,Iselin,D,71,58,51,2019,vivaan.patel@school.edu,732-610-1712
+199,Kabir Reddy,18,New Brunswick,C,63,53,56,2020,kabir.reddy@school.edu,732-631-4155
+200,Ananya Das,16,Jersey City,D,68,77,45,2025,ananya.das@school.edu,732-295-3011
+201,Aditya Iyer,21,Woodbridge,D,88,98,41,2021,aditya.iyer@school.edu,732-638-9964
+202,Ishaan Das,19,Jersey City,A,74,97,78,2022,ishaan.das@school.edu,732-780-5393
+203,Kavya Nair,15,Jersey City,B,48,49,48,2025,kavya.nair@school.edu,732-764-8137
+204,Kabir Sharma,17,New Brunswick,C,78,51,95,2023,kabir.sharma@school.edu,732-811-5739
+205,Riya Khan,15,Iselin,A,63,94,85,2025,riya.khan@school.edu,732-944-1784
+206,Kabir Patel,18,Edison,B,98,98,75,2019,kabir.patel@school.edu,732-399-1872
+207,Rohan Nair,20,Jersey City,A,65,78,71,2018,rohan.nair@school.edu,732-414-7659
+208,Riya Singh,18,Jersey City,A,70,95,65,2019,riya.singh@school.edu,732-526-5458
+209,Vivaan Singh,18,Edison,D,47,84,74,2021,vivaan.singh@school.edu,732-212-6421
+210,Rohan Iyer,18,Iselin,B,86,88,92,2022,rohan.iyer@school.edu,732-510-3093
+211,Aditya Iyer,17,Woodbridge,B,91,80,54,2021,aditya.iyer@school.edu,732-925-4174
+212,Vivaan Gupta,21,Woodbridge,D,70,73,70,2020,vivaan.gupta@school.edu,732-451-7953
+213,Rohan Verma,19,Jersey City,A,58,46,47,2024,rohan.verma@school.edu,732-247-3681
+214,Kabir Gupta,18,Woodbridge,A,61,63,95,2022,kabir.gupta@school.edu,732-418-5095
+215,Kavya Khan,18,Iselin,A,47,63,88,2019,kavya.khan@school.edu,732-764-9045
+216,Riya Patel,19,Edison,B,61,53,54,2024,riya.patel@school.edu,732-460-6509
+217,Rohan Nair,18,Princeton,C,50,85,90,2023,rohan.nair@school.edu,732-833-7934
+218,Kabir Gupta,15,New Brunswick,A,98,84,99,2024,kabir.gupta@school.edu,732-452-7567
+219,Ananya Nair,18,Iselin,B,43,73,98,2019,ananya.nair@school.edu,732-868-5974
+220,Diya Reddy,20,Jersey City,B,78,67,99,2022,diya.reddy@school.edu,732-972-2087
+221,Diya Reddy,16,Woodbridge,C,43,92,82,2019,diya.reddy@school.edu,732-225-5233
+222,Ananya Das,21,Iselin,D,48,80,51,2025,ananya.das@school.edu,732-769-7318
+223,Vivaan Khan,20,Jersey City,A,60,55,60,2023,vivaan.khan@school.edu,732-515-5707
+224,Vivaan Das,21,Edison,D,41,63,98,2022,vivaan.das@school.edu,732-229-1401
+225,Aarav Das,19,Edison,B,87,43,87,2024,aarav.das@school.edu,732-787-9250
+226,Riya Verma,19,Princeton,A,61,88,86,2021,riya.verma@school.edu,732-998-2336
+227,Vivaan Nair,20,New Brunswick,D,49,46,90,2019,vivaan.nair@school.edu,732-633-7313
+228,Ishaan Reddy,20,Iselin,B,52,86,41,2023,ishaan.reddy@school.edu,732-901-4974
+229,Aditya Das,16,New Brunswick,A,89,60,55,2019,aditya.das@school.edu,732-911-4092
+230,Rohan Singh,15,Jersey City,C,59,47,76,2018,rohan.singh@school.edu,732-460-4938
+231,Kabir Iyer,20,Edison,A,85,68,70,2020,kabir.iyer@school.edu,732-765-4651
+232,Riya Verma,16,Jersey City,C,97,58,57,2018,riya.verma@school.edu,732-666-3856
+233,Kavya Das,17,Iselin,D,48,61,95,2018,kavya.das@school.edu,732-990-6869
+234,Diya Nair,17,New Brunswick,D,49,53,94,2019,diya.nair@school.edu,732-542-1889
+235,Riya Nair,16,Woodbridge,C,95,40,85,2025,riya.nair@school.edu,732-604-2085
+236,Riya Sharma,15,Jersey City,D,64,95,49,2023,riya.sharma@school.edu,732-726-8311
+237,Kabir Nair,15,Woodbridge,C,90,80,44,2021,kabir.nair@school.edu,732-906-4630
+238,Kavya Patel,20,Princeton,A,60,83,46,2023,kavya.patel@school.edu,732-683-3254
+239,Vivaan Singh,21,Princeton,D,82,40,97,2018,vivaan.singh@school.edu,732-777-2379
+240,Riya Nair,18,Princeton,D,89,55,71,2023,riya.nair@school.edu,732-371-3247
+241,Kabir Singh,16,Woodbridge,D,77,89,66,2019,kabir.singh@school.edu,732-505-9929
+242,Riya Nair,15,Princeton,D,97,59,90,2019,riya.nair@school.edu,732-910-8749
+243,Ishaan Iyer,16,Edison,A,77,62,91,2024,ishaan.iyer@school.edu,732-716-4413
+244,Ananya Reddy,15,New Brunswick,D,83,85,92,2025,ananya.reddy@school.edu,732-459-8851
+245,Vivaan Nair,21,Princeton,D,49,80,71,2019,vivaan.nair@school.edu,732-520-9093
+246,Ananya Das,17,Iselin,D,61,60,78,2024,ananya.das@school.edu,732-541-4804
+247,Kabir Khan,19,New Brunswick,D,92,49,91,2025,kabir.khan@school.edu,732-738-6913
+248,Vivaan Patel,17,Princeton,D,47,40,81,2023,vivaan.patel@school.edu,732-979-9527
+249,Diya Iyer,18,Iselin,C,48,98,74,2018,diya.iyer@school.edu,732-326-2056
+250,Ananya Khan,16,New Brunswick,A,45,44,76,2025,ananya.khan@school.edu,732-269-4541
+251,Diya Khan,21,New Brunswick,C,42,40,52,2021,diya.khan@school.edu,732-715-5505
+252,Aditya Verma,20,Jersey City,C,81,41,45,2018,aditya.verma@school.edu,732-408-8878
+253,Diya Reddy,15,Jersey City,C,69,70,86,2022,diya.reddy@school.edu,732-490-6102
+254,Ananya Verma,15,Iselin,D,73,43,49,2021,ananya.verma@school.edu,732-563-5912
+255,Aditya Gupta,21,New Brunswick,A,91,97,99,2018,aditya.gupta@school.edu,732-491-8020
+256,Vivaan Iyer,20,New Brunswick,D,87,51,54,2020,vivaan.iyer@school.edu,732-430-6049
+257,Ananya Sharma,17,Iselin,C,41,86,95,2020,ananya.sharma@school.edu,732-201-8432
+258,Kavya Khan,18,Iselin,C,75,40,54,2021,kavya.khan@school.edu,732-758-1160
+259,Kavya Iyer,16,Princeton,C,88,54,88,2022,kavya.iyer@school.edu,732-744-7671
+260,Rohan Reddy,17,Woodbridge,B,70,56,76,2023,rohan.reddy@school.edu,732-793-2248
+261,Kavya Reddy,20,Edison,C,44,45,46,2022,kavya.reddy@school.edu,732-219-6363
+262,Kavya Reddy,17,Iselin,B,96,40,78,2020,kavya.reddy@school.edu,732-889-7348
+263,Kavya Sharma,16,Woodbridge,C,74,51,48,2019,kavya.sharma@school.edu,732-511-7171
+264,Aarav Iyer,15,Edison,D,76,71,41,2020,aarav.iyer@school.edu,732-415-7627
+265,Riya Sharma,19,Princeton,C,87,62,87,2022,riya.sharma@school.edu,732-739-6008
+266,Aarav Das,17,New Brunswick,A,78,89,46,2018,aarav.das@school.edu,732-693-6785
+267,Rohan Verma,18,New Brunswick,B,66,63,96,2020,rohan.verma@school.edu,732-646-1242
+268,Aarav Das,16,Princeton,C,54,78,85,2018,aarav.das@school.edu,732-666-3390
+269,Aditya Iyer,16,New Brunswick,D,70,45,94,2022,aditya.iyer@school.edu,732-297-8414
+270,Ishaan Das,18,Woodbridge,B,90,91,72,2022,ishaan.das@school.edu,732-360-4225
+271,Kabir Das,15,Edison,D,59,76,75,2021,kabir.das@school.edu,732-770-8857
+272,Vivaan Reddy,21,Iselin,C,70,87,84,2020,vivaan.reddy@school.edu,732-485-1124
+273,Diya Das,17,Princeton,A,44,44,77,2025,diya.das@school.edu,732-886-2310
+274,Kavya Sharma,21,Princeton,A,91,76,98,2019,kavya.sharma@school.edu,732-543-1180
+275,Ishaan Patel,17,Jersey City,D,45,66,46,2019,ishaan.patel@school.edu,732-862-2453
+276,Kavya Sharma,15,Jersey City,A,77,77,75,2024,kavya.sharma@school.edu,732-363-8510
+277,Ananya Das,17,Princeton,B,99,44,92,2018,ananya.das@school.edu,732-435-2356
+278,Aarav Verma,20,Jersey City,D,97,96,95,2020,aarav.verma@school.edu,732-682-7005
+279,Aarav Das,16,Iselin,C,91,58,50,2019,aarav.das@school.edu,732-665-8689
+280,Aarav Patel,15,Edison,A,85,91,82,2020,aarav.patel@school.edu,732-638-1722
+281,Rohan Sharma,15,Woodbridge,C,85,81,61,2024,rohan.sharma@school.edu,732-960-7335
+282,Kabir Nair,17,Iselin,B,70,54,62,2022,kabir.nair@school.edu,732-726-6359
+283,Vivaan Iyer,19,Iselin,C,50,44,75,2025,vivaan.iyer@school.edu,732-277-8714
+284,Kabir Singh,15,Edison,A,45,80,56,2025,kabir.singh@school.edu,732-616-4173
+285,Aarav Verma,21,Princeton,C,63,82,93,2024,aarav.verma@school.edu,732-304-2125
+286,Diya Verma,18,Princeton,D,70,62,74,2022,diya.verma@school.edu,732-615-4928
+287,Ananya Verma,21,Edison,C,55,53,86,2023,ananya.verma@school.edu,732-299-9463
+288,Aditya Patel,21,Edison,B,45,60,93,2020,aditya.patel@school.edu,732-484-3108
+289,Diya Khan,15,Woodbridge,D,71,64,61,2025,diya.khan@school.edu,732-217-9043
+290,Kabir Iyer,17,Jersey City,B,66,83,89,2019,kabir.iyer@school.edu,732-982-9366
+291,Aarav Nair,17,Edison,A,51,87,43,2022,aarav.nair@school.edu,732-535-1228
+292,Ishaan Sharma,20,Woodbridge,A,77,46,64,2021,ishaan.sharma@school.edu,732-208-5761
+293,Vivaan Singh,17,Woodbridge,A,41,61,75,2018,vivaan.singh@school.edu,732-844-8414
+294,Aditya Das,19,Princeton,B,82,73,84,2024,aditya.das@school.edu,732-906-4935
+295,Riya Patel,17,Edison,C,44,55,63,2025,riya.patel@school.edu,732-412-6735
+296,Aditya Nair,16,Woodbridge,C,63,75,97,2018,aditya.nair@school.edu,732-697-9843
+297,Vivaan Das,16,Edison,B,73,98,70,2022,vivaan.das@school.edu,732-378-4454
+298,Kavya Nair,18,Jersey City,D,41,60,91,2021,kavya.nair@school.edu,732-937-8236
+299,Rohan Khan,20,Iselin,A,51,73,84,2021,rohan.khan@school.edu,732-582-3172
+300,Kabir Sharma,19,Iselin,A,52,89,76,2025,kabir.sharma@school.edu,732-516-3209
+301,Aarav Reddy,19,Iselin,C,89,55,84,2022,aarav.reddy@school.edu,732-650-9803
+302,Vivaan Singh,15,Iselin,B,67,57,61,2021,vivaan.singh@school.edu,732-232-2324
+303,Diya Patel,15,Jersey City,B,49,60,69,2022,diya.patel@school.edu,732-632-5171
+304,Aditya Gupta,17,Princeton,B,51,41,79,2018,aditya.gupta@school.edu,732-263-5988
+305,Vivaan Gupta,15,Princeton,C,96,90,77,2025,vivaan.gupta@school.edu,732-552-9283
+306,Vivaan Patel,21,Woodbridge,B,40,47,79,2019,vivaan.patel@school.edu,732-865-3299
+307,Riya Das,16,Woodbridge,A,60,69,50,2021,riya.das@school.edu,732-308-1075
+308,Rohan Das,15,Edison,C,80,90,69,2025,rohan.das@school.edu,732-720-2602
+309,Kabir Reddy,21,Edison,B,72,86,49,2019,kabir.reddy@school.edu,732-747-7805
+310,Kabir Reddy,21,Woodbridge,C,51,70,99,2024,kabir.reddy@school.edu,732-229-6107
+311,Rohan Patel,15,New Brunswick,A,82,42,84,2020,rohan.patel@school.edu,732-296-5254
+312,Ishaan Khan,19,Iselin,A,88,48,87,2025,ishaan.khan@school.edu,732-896-6515
+313,Aditya Khan,19,Jersey City,A,48,84,90,2024,aditya.khan@school.edu,732-948-6294
+314,Kabir Patel,19,Edison,B,69,77,83,2023,kabir.patel@school.edu,732-401-8963
+315,Ananya Sharma,21,New Brunswick,B,95,90,69,2018,ananya.sharma@school.edu,732-737-1248
+316,Rohan Verma,16,Edison,A,97,59,99,2019,rohan.verma@school.edu,732-670-4484
+317,Diya Singh,18,New Brunswick,B,53,93,41,2022,diya.singh@school.edu,732-713-7302
+318,Aarav Nair,16,Edison,C,94,96,90,2021,aarav.nair@school.edu,732-463-2662
+319,Vivaan Reddy,17,New Brunswick,C,79,94,44,2025,vivaan.reddy@school.edu,732-949-8633
+320,Kavya Reddy,15,Edison,B,67,50,47,2024,kavya.reddy@school.edu,732-630-7799
+321,Kabir Sharma,19,Iselin,C,74,70,45,2018,kabir.sharma@school.edu,732-598-3049
+322,Aarav Singh,15,Jersey City,A,63,81,66,2024,aarav.singh@school.edu,732-909-4960
+323,Aarav Nair,20,New Brunswick,B,92,41,53,2024,aarav.nair@school.edu,732-483-2389
+324,Kavya Sharma,18,Iselin,A,80,68,40,2020,kavya.sharma@school.edu,732-371-4578
+325,Diya Singh,19,Woodbridge,C,57,89,98,2018,diya.singh@school.edu,732-361-6703
+326,Ishaan Gupta,16,Woodbridge,B,43,69,58,2018,ishaan.gupta@school.edu,732-378-8017
+327,Diya Reddy,16,Iselin,D,43,46,41,2023,diya.reddy@school.edu,732-343-7450
+328,Riya Patel,16,New Brunswick,D,72,64,43,2020,riya.patel@school.edu,732-871-2771
+329,Ananya Sharma,17,New Brunswick,C,70,89,89,2025,ananya.sharma@school.edu,732-835-4118
+330,Rohan Das,16,Edison,C,53,41,96,2020,rohan.das@school.edu,732-705-2190
+331,Rohan Sharma,21,Edison,D,82,79,46,2019,rohan.sharma@school.edu,732-691-5955
+332,Ishaan Iyer,18,Jersey City,B,68,47,94,2018,ishaan.iyer@school.edu,732-551-9423
+333,Aarav Das,16,Woodbridge,C,95,99,91,2019,aarav.das@school.edu,732-315-1471
+334,Ananya Sharma,15,Edison,B,42,66,54,2022,ananya.sharma@school.edu,732-206-4014
+335,Aarav Nair,15,Edison,A,87,79,73,2020,aarav.nair@school.edu,732-215-1858
+336,Kabir Das,19,Princeton,A,72,54,77,2018,kabir.das@school.edu,732-786-9247
+337,Vivaan Verma,17,Iselin,C,93,56,76,2025,vivaan.verma@school.edu,732-572-2988
+338,Vivaan Sharma,19,New Brunswick,B,43,56,48,2020,vivaan.sharma@school.edu,732-967-4318
+339,Riya Verma,16,Edison,A,75,92,84,2023,riya.verma@school.edu,732-217-5217
+340,Aditya Gupta,17,Woodbridge,B,67,43,62,2022,aditya.gupta@school.edu,732-387-2786
+341,Riya Gupta,15,Jersey City,A,83,60,90,2022,riya.gupta@school.edu,732-432-6051
+342,Ishaan Verma,21,Iselin,A,96,51,75,2018,ishaan.verma@school.edu,732-459-9218
+343,Aarav Patel,18,Edison,C,44,53,60,2023,aarav.patel@school.edu,732-720-3761
+344,Rohan Sharma,20,Iselin,D,44,86,79,2019,rohan.sharma@school.edu,732-535-8963
+345,Kavya Sharma,17,Edison,A,50,74,45,2025,kavya.sharma@school.edu,732-689-9125
+346,Kabir Verma,15,Edison,A,56,88,58,2024,kabir.verma@school.edu,732-361-3841
+347,Kavya Verma,16,New Brunswick,D,94,96,83,2023,kavya.verma@school.edu,732-586-2871
+348,Ananya Khan,19,New Brunswick,D,53,55,73,2025,ananya.khan@school.edu,732-592-9434
+349,Kavya Khan,18,Edison,D,81,85,88,2018,kavya.khan@school.edu,732-380-5860
+350,Riya Gupta,19,Edison,C,83,70,82,2021,riya.gupta@school.edu,732-831-6588
+351,Vivaan Reddy,21,Woodbridge,C,57,40,72,2025,vivaan.reddy@school.edu,732-323-6601
+352,Aarav Nair,19,Edison,C,81,83,40,2021,aarav.nair@school.edu,732-904-5951
+353,Diya Gupta,19,Princeton,B,72,78,59,2022,diya.gupta@school.edu,732-921-7251
+354,Kabir Das,18,New Brunswick,C,56,81,71,2019,kabir.das@school.edu,732-515-3225
+355,Diya Patel,18,Edison,A,85,76,65,2024,diya.patel@school.edu,732-605-1972
+356,Vivaan Das,20,Princeton,C,67,46,70,2025,vivaan.das@school.edu,732-907-8081
+357,Vivaan Gupta,19,Edison,D,67,46,87,2019,vivaan.gupta@school.edu,732-873-1533
+358,Aditya Nair,18,Princeton,B,74,98,70,2022,aditya.nair@school.edu,732-682-6608
+359,Rohan Reddy,16,Jersey City,C,76,40,48,2019,rohan.reddy@school.edu,732-352-4648
+360,Ananya Khan,21,Princeton,A,92,83,79,2021,ananya.khan@school.edu,732-298-6127
+361,Ananya Reddy,20,Edison,C,42,94,41,2024,ananya.reddy@school.edu,732-789-4177
+362,Kabir Reddy,20,Princeton,A,93,94,93,2024,kabir.reddy@school.edu,732-483-9178
+363,Vivaan Iyer,18,Princeton,D,91,87,56,2019,vivaan.iyer@school.edu,732-743-8822
+364,Vivaan Reddy,17,Edison,A,55,80,85,2020,vivaan.reddy@school.edu,732-781-2753
+365,Kavya Iyer,21,Edison,B,80,56,58,2023,kavya.iyer@school.edu,732-613-6454
+366,Kabir Iyer,18,Jersey City,D,75,79,83,2022,kabir.iyer@school.edu,732-522-3580
+367,Kavya Iyer,15,Edison,D,40,80,84,2025,kavya.iyer@school.edu,732-596-9508
+368,Vivaan Reddy,21,Princeton,C,72,91,50,2024,vivaan.reddy@school.edu,732-785-6506
+369,Rohan Patel,20,Jersey City,C,74,41,98,2019,rohan.patel@school.edu,732-672-1360
+370,Kabir Das,20,Iselin,D,62,42,83,2023,kabir.das@school.edu,732-475-2136
+371,Ananya Nair,17,Edison,D,60,77,49,2022,ananya.nair@school.edu,732-385-2538
+372,Diya Iyer,21,New Brunswick,A,55,41,62,2025,diya.iyer@school.edu,732-558-3469
+373,Aarav Nair,15,New Brunswick,B,47,67,97,2024,aarav.nair@school.edu,732-316-9466
+374,Aarav Patel,15,Edison,D,97,67,85,2020,aarav.patel@school.edu,732-298-5560
+375,Aditya Patel,20,New Brunswick,C,69,69,78,2025,aditya.patel@school.edu,732-641-3933
+376,Vivaan Das,19,Jersey City,B,93,51,50,2023,vivaan.das@school.edu,732-323-9474
+377,Riya Patel,18,Edison,A,52,82,47,2018,riya.patel@school.edu,732-248-7363
+378,Ishaan Iyer,17,Jersey City,D,75,94,67,2019,ishaan.iyer@school.edu,732-719-1398
+379,Ananya Gupta,16,Edison,A,61,47,62,2025,ananya.gupta@school.edu,732-768-2484
+380,Riya Patel,16,Woodbridge,A,70,46,48,2021,riya.patel@school.edu,732-521-3953
+381,Rohan Gupta,20,Princeton,A,81,82,71,2020,rohan.gupta@school.edu,732-374-4623
+382,Kavya Verma,20,Woodbridge,C,61,47,75,2021,kavya.verma@school.edu,732-395-4961
+383,Diya Singh,21,Edison,A,76,93,77,2023,diya.singh@school.edu,732-858-1337
+384,Diya Gupta,21,Iselin,D,61,57,40,2023,diya.gupta@school.edu,732-958-4684
+385,Ishaan Patel,16,Princeton,C,99,69,72,2024,ishaan.patel@school.edu,732-360-3859
+386,Ishaan Patel,20,Jersey City,C,92,82,98,2024,ishaan.patel@school.edu,732-920-8360
+387,Ananya Iyer,18,Iselin,C,80,68,52,2022,ananya.iyer@school.edu,732-943-5660
+388,Aarav Patel,19,Edison,A,40,41,40,2018,aarav.patel@school.edu,732-719-2702
+389,Aarav Patel,16,Edison,B,48,87,75,2022,aarav.patel@school.edu,732-543-1938
+390,Kabir Khan,15,Edison,B,62,41,86,2021,kabir.khan@school.edu,732-528-6866
+391,Vivaan Patel,20,Iselin,B,49,90,86,2025,vivaan.patel@school.edu,732-595-6367
+392,Vivaan Verma,19,Princeton,D,45,63,80,2018,vivaan.verma@school.edu,732-406-9988
+393,Diya Khan,19,Iselin,C,67,88,66,2024,diya.khan@school.edu,732-682-7767
+394,Vivaan Das,17,Woodbridge,C,93,84,43,2018,vivaan.das@school.edu,732-827-7374
+395,Vivaan Iyer,20,Edison,D,82,83,52,2020,vivaan.iyer@school.edu,732-949-3474
+396,Kavya Sharma,20,Iselin,A,87,75,43,2020,kavya.sharma@school.edu,732-587-5552
+397,Rohan Patel,15,Woodbridge,B,47,93,82,2018,rohan.patel@school.edu,732-362-3644
+398,Diya Verma,20,Jersey City,B,48,74,73,2021,diya.verma@school.edu,732-894-7898
+399,Aarav Khan,19,Princeton,A,44,66,80,2024,aarav.khan@school.edu,732-436-8758
+400,Rohan Verma,19,Iselin,A,96,46,67,2021,rohan.verma@school.edu,732-866-4036
+401,Rohan Sharma,15,Princeton,C,83,51,55,2023,rohan.sharma@school.edu,732-905-1068
+402,Kabir Nair,18,Edison,D,73,69,53,2022,kabir.nair@school.edu,732-905-7441
+403,Ishaan Gupta,20,Jersey City,B,54,46,64,2020,ishaan.gupta@school.edu,732-899-2757
+404,Aditya Khan,20,Jersey City,B,81,45,97,2021,aditya.khan@school.edu,732-460-4022
+405,Rohan Gupta,16,Jersey City,B,73,78,75,2023,rohan.gupta@school.edu,732-445-1183
+406,Kabir Patel,17,Edison,D,71,43,53,2025,kabir.patel@school.edu,732-954-5346
+407,Vivaan Das,21,Iselin,A,40,45,95,2025,vivaan.das@school.edu,732-739-9008
+408,Vivaan Singh,18,Iselin,B,95,58,42,2018,vivaan.singh@school.edu,732-486-9895
+409,Aarav Das,18,Iselin,B,96,46,76,2019,aarav.das@school.edu,732-208-7594
+410,Ananya Nair,15,Jersey City,B,66,95,68,2024,ananya.nair@school.edu,732-230-9712
+411,Vivaan Nair,17,Edison,A,65,86,98,2024,vivaan.nair@school.edu,732-823-9886
+412,Vivaan Iyer,19,Edison,C,85,62,42,2020,vivaan.iyer@school.edu,732-443-1301
+413,Kabir Nair,21,New Brunswick,B,44,91,75,2020,kabir.nair@school.edu,732-739-6424
+414,Ishaan Khan,21,Edison,A,52,83,43,2025,ishaan.khan@school.edu,732-962-8429
+415,Vivaan Sharma,19,Woodbridge,A,75,91,62,2022,vivaan.sharma@school.edu,732-254-9559
+416,Kavya Nair,20,Princeton,A,99,85,70,2022,kavya.nair@school.edu,732-266-1696
+417,Kabir Das,16,Iselin,C,50,96,72,2025,kabir.das@school.edu,732-810-5409
+418,Kavya Singh,18,Edison,D,91,89,98,2024,kavya.singh@school.edu,732-254-2533
+419,Ishaan Das,21,New Brunswick,D,83,55,87,2022,ishaan.das@school.edu,732-502-1920
+420,Diya Reddy,17,Edison,A,67,42,89,2019,diya.reddy@school.edu,732-823-8119
+421,Kabir Sharma,20,Edison,B,83,76,51,2023,kabir.sharma@school.edu,732-495-5643
+422,Riya Patel,15,Princeton,C,79,54,83,2020,riya.patel@school.edu,732-959-2675
+423,Kavya Khan,20,Edison,C,88,56,76,2025,kavya.khan@school.edu,732-839-2399
+424,Kavya Gupta,19,New Brunswick,A,53,53,62,2025,kavya.gupta@school.edu,732-963-2584
+425,Diya Gupta,17,Edison,C,74,68,82,2022,diya.gupta@school.edu,732-859-6872
+426,Rohan Verma,19,Edison,B,48,83,93,2019,rohan.verma@school.edu,732-547-8967
+427,Diya Iyer,15,Woodbridge,D,88,53,45,2024,diya.iyer@school.edu,732-582-5646
+428,Aarav Singh,15,Woodbridge,A,95,64,58,2020,aarav.singh@school.edu,732-436-9347
+429,Ishaan Khan,15,Jersey City,D,42,60,49,2024,ishaan.khan@school.edu,732-875-9595
+430,Kabir Verma,16,Jersey City,B,52,85,86,2022,kabir.verma@school.edu,732-763-7353
+431,Aditya Nair,15,Edison,B,77,52,87,2024,aditya.nair@school.edu,732-213-2463
+432,Rohan Nair,18,Woodbridge,B,48,92,89,2018,rohan.nair@school.edu,732-222-3306
+433,Kabir Singh,17,Edison,C,90,95,72,2021,kabir.singh@school.edu,732-759-1067
+434,Kabir Gupta,19,Iselin,A,69,47,70,2023,kabir.gupta@school.edu,732-729-6272
+435,Diya Singh,19,Princeton,C,84,53,55,2025,diya.singh@school.edu,732-255-2649
+436,Diya Patel,20,New Brunswick,B,41,64,40,2021,diya.patel@school.edu,732-918-4318
+437,Ananya Nair,16,Princeton,D,85,65,54,2023,ananya.nair@school.edu,732-709-6998
+438,Ishaan Reddy,18,New Brunswick,A,85,47,95,2023,ishaan.reddy@school.edu,732-327-4524
+439,Kabir Nair,20,Iselin,B,74,69,62,2021,kabir.nair@school.edu,732-202-8049
+440,Aarav Singh,19,Iselin,B,85,61,44,2025,aarav.singh@school.edu,732-653-8884
+441,Kavya Patel,20,Princeton,B,81,75,70,2020,kavya.patel@school.edu,732-231-3071
+442,Diya Gupta,15,New Brunswick,B,97,68,72,2024,diya.gupta@school.edu,732-365-5017
+443,Diya Iyer,21,Princeton,A,91,98,65,2023,diya.iyer@school.edu,732-883-7288
+444,Riya Reddy,21,Princeton,D,84,85,90,2024,riya.reddy@school.edu,732-382-3471
+445,Aditya Iyer,20,Princeton,C,48,67,78,2018,aditya.iyer@school.edu,732-413-4433
+446,Ishaan Singh,19,Woodbridge,D,85,46,69,2023,ishaan.singh@school.edu,732-441-9155
+447,Diya Gupta,16,Woodbridge,B,94,48,40,2020,diya.gupta@school.edu,732-399-1649
+448,Riya Nair,16,Princeton,D,74,80,92,2025,riya.nair@school.edu,732-520-2018
+449,Diya Reddy,16,Jersey City,C,70,94,95,2020,diya.reddy@school.edu,732-512-4833
+450,Kavya Khan,15,Jersey City,B,83,48,96,2019,kavya.khan@school.edu,732-673-6150
+451,Riya Das,15,Edison,D,78,60,63,2021,riya.das@school.edu,732-526-7237
+452,Ananya Verma,20,Princeton,A,96,72,99,2018,ananya.verma@school.edu,732-256-2736
+453,Riya Patel,20,Iselin,C,84,58,57,2023,riya.patel@school.edu,732-754-7261
+454,Riya Sharma,18,Jersey City,A,99,91,94,2022,riya.sharma@school.edu,732-239-6856
+455,Riya Nair,17,Woodbridge,A,75,73,44,2025,riya.nair@school.edu,732-586-6190
+456,Riya Khan,17,Iselin,B,50,59,95,2023,riya.khan@school.edu,732-613-4565
+457,Vivaan Reddy,20,Woodbridge,A,61,74,73,2024,vivaan.reddy@school.edu,732-275-2873
+458,Diya Patel,20,Jersey City,D,70,69,82,2022,diya.patel@school.edu,732-692-5465
+459,Ananya Verma,16,New Brunswick,C,45,72,56,2021,ananya.verma@school.edu,732-350-3236
+460,Vivaan Reddy,21,Princeton,C,45,47,83,2025,vivaan.reddy@school.edu,732-478-2282
+461,Kavya Patel,16,Edison,A,62,83,41,2024,kavya.patel@school.edu,732-557-3864
+462,Ananya Iyer,19,Woodbridge,B,96,99,78,2018,ananya.iyer@school.edu,732-338-1242
+463,Aditya Gupta,21,Jersey City,C,49,60,81,2022,aditya.gupta@school.edu,732-263-3160
+464,Ananya Nair,15,Jersey City,A,64,49,91,2024,ananya.nair@school.edu,732-903-5731
+465,Riya Sharma,15,Woodbridge,C,66,45,66,2021,riya.sharma@school.edu,732-376-3084
+466,Vivaan Patel,20,Princeton,D,44,78,51,2025,vivaan.patel@school.edu,732-606-4177
+467,Kavya Gupta,15,Edison,C,96,91,69,2018,kavya.gupta@school.edu,732-974-6634
+468,Kavya Das,18,New Brunswick,C,92,42,52,2021,kavya.das@school.edu,732-542-2342
+469,Ishaan Nair,15,Jersey City,D,95,63,47,2024,ishaan.nair@school.edu,732-502-8720
+470,Ananya Gupta,18,New Brunswick,B,74,44,90,2025,ananya.gupta@school.edu,732-379-5519
+471,Vivaan Khan,20,Jersey City,A,68,79,54,2022,vivaan.khan@school.edu,732-581-9674
+472,Diya Patel,18,Edison,D,60,71,84,2024,diya.patel@school.edu,732-961-1791
+473,Ananya Das,19,Woodbridge,B,95,79,68,2023,ananya.das@school.edu,732-861-4981
+474,Ishaan Das,21,Woodbridge,D,87,66,58,2023,ishaan.das@school.edu,732-650-9124
+475,Diya Reddy,15,Iselin,D,92,62,88,2020,diya.reddy@school.edu,732-428-9208
+476,Aditya Khan,20,Iselin,B,48,42,91,2025,aditya.khan@school.edu,732-554-6850
+477,Kabir Singh,19,Edison,C,86,93,70,2021,kabir.singh@school.edu,732-718-1564
+478,Vivaan Iyer,20,Iselin,D,88,63,80,2024,vivaan.iyer@school.edu,732-214-1060
+479,Ishaan Singh,16,Jersey City,A,73,90,83,2022,ishaan.singh@school.edu,732-752-7355
+480,Diya Nair,17,New Brunswick,D,40,73,87,2022,diya.nair@school.edu,732-338-8998
+481,Ananya Gupta,20,Princeton,D,69,88,81,2022,ananya.gupta@school.edu,732-955-6771
+482,Aarav Patel,16,Edison,C,88,63,41,2025,aarav.patel@school.edu,732-333-2386
+483,Aditya Das,16,New Brunswick,C,53,51,90,2022,aditya.das@school.edu,732-829-8803
+484,Kabir Patel,20,Woodbridge,D,76,65,68,2025,kabir.patel@school.edu,732-249-1029
+485,Ishaan Sharma,18,Edison,D,72,54,63,2021,ishaan.sharma@school.edu,732-525-1012
+486,Ananya Patel,17,Woodbridge,B,91,51,74,2025,ananya.patel@school.edu,732-916-3451
+487,Ananya Iyer,16,Edison,D,55,44,62,2024,ananya.iyer@school.edu,732-276-3920
+488,Aditya Singh,21,Iselin,B,52,93,83,2019,aditya.singh@school.edu,732-604-2464
+489,Aarav Khan,21,Princeton,C,62,47,98,2024,aarav.khan@school.edu,732-384-4047
+490,Rohan Singh,20,Iselin,D,44,46,93,2023,rohan.singh@school.edu,732-534-4641
+491,Kavya Singh,18,Iselin,A,79,89,57,2025,kavya.singh@school.edu,732-732-6156
+492,Diya Nair,18,Jersey City,B,85,88,75,2024,diya.nair@school.edu,732-984-5099
+493,Diya Singh,16,Jersey City,D,90,75,57,2024,diya.singh@school.edu,732-895-4291
+494,Kavya Patel,19,Iselin,D,44,93,92,2020,kavya.patel@school.edu,732-599-7113
+495,Aarav Sharma,17,Princeton,C,80,67,89,2020,aarav.sharma@school.edu,732-922-7649
+496,Kabir Patel,18,Iselin,C,62,70,66,2024,kabir.patel@school.edu,732-789-3959
+497,Kabir Gupta,19,New Brunswick,C,69,43,50,2025,kabir.gupta@school.edu,732-783-5820
+498,Aditya Sharma,20,New Brunswick,D,70,96,98,2024,aditya.sharma@school.edu,732-573-5400
+499,Kabir Verma,18,New Brunswick,C,79,51,50,2022,kabir.verma@school.edu,732-425-3772
+500,Kabir Reddy,18,Jersey City,C,79,84,52,2022,kabir.reddy@school.edu,732-388-1562
