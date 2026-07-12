@@ -45,3 +45,4 @@ df.to_csv("students.csv", index=False)
 
 print(df.head())
 print(df.tail())
+print(df.describe())
