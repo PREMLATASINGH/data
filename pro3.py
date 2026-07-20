@@ -12,4 +12,5 @@ print(df['purchase_amount'].fillna(df['purchase_amount'].mean(), inplace=True))
 print(df.isnull().sum())
 print(df['name'].fillna('Unknown', inplace=True))
 print(df.isnull().sum())
+print(df)
 
