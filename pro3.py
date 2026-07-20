@@ -14,3 +14,4 @@ print(df['name'].fillna('Unknown', inplace=True))
 print(df.isnull().sum())
 print(df)
 
+
