@@ -13,5 +13,5 @@ print(df.isnull().sum())
 print(df['name'].fillna('Unknown', inplace=True))
 print(df.isnull().sum())
 print(df)
-
+print(df.groupby('age')['purchase_amount'].mean())
 
