@@ -20,4 +20,5 @@ print(df[df['purchase_amount'] > 1000])
 print(df[df['age'] < 30])
 print(df['age'].mean())
 print(df['purchase_amount'].mean())
+print(df['age'].median())
 
