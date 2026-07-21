@@ -18,4 +18,5 @@ print(df.sort_index())
 print(df.sort_values(by='purchase_amount', ascending=False))
 print(df[df['purchase_amount'] > 1000])
 print(df[df['age'] < 30])
+print(df['age'].mean())
 
