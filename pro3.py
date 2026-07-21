@@ -15,4 +15,5 @@ print(df.isnull().sum())
 print(df)
 print(df.groupby('age')['purchase_amount'].mean())
 print(df.sort_index())
+print(df.sort_values(by='purchase_amount', ascending=False))
 
