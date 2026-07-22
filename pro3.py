@@ -23,4 +23,5 @@ print(df['purchase_amount'].mean())
 print(df['age'].median())
 print(df['purchase_amount'].median())
 print(df['age'].mode())
+print(df.sort_values(by='age', ascending=False))
 
