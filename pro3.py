@@ -27,4 +27,5 @@ print(df.sort_values(by='age', ascending=False))
 print(df.sort_values(by='purchase_amount', ascending=True))
 print(df[df['age'] > 50])
 print(df[df['purchase_amount'] < 500])
+print(df[df['age'] == 25])
 
